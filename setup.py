@@ -7,7 +7,7 @@ setup(
     install_requires=[],
     entry_points={
         'console_scripts': [
-            'classical-ciphers=main:main',
+            'classical-ciphers=classical_ciphers.main:main',
         ],
     },
     author='Oussama Guelfaa',
