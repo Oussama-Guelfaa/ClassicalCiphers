@@ -1,0 +1,72 @@
+2024-12-08 00:00:33,897 - logging_config - INFO - Initialized VigenereCipher with key: KEY
+2024-12-08 00:00:33,897 - logging_config - INFO - Decrypting with VigenereCipher: RIJVS
+2024-12-08 00:00:33,897 - logging_config - INFO - Initialized VigenereCipher with key: KEY
+2024-12-08 00:00:33,897 - logging_config - INFO - Encrypting with VigenereCipher: HELLO
+2024-12-08 00:00:33,897 - logging_config - INFO - Initialized VigenereCipher with key: KEY
+2024-12-08 00:00:33,897 - logging_config - INFO - Encrypting with VigenereCipher: HELLO WORLD!
+2024-12-08 00:00:41,884 - logging_config - INFO - Initializing PlayfairCipher with key: KEYWORD
+2024-12-08 00:00:41,885 - logging_config - DEBUG - Generated Playfair key matrix: [['K', 'E', 'Y', 'W', 'O'], ['R', 'D', 'A', 'B', 'C'], ['F', 'G', 'H', 'I', 'L'], ['M', 'N', 'P', 'Q', 'S'], ['T', 'U', 'V', 'X', 'Z']]
+2024-12-08 00:00:41,885 - logging_config - INFO - Decrypting with PlayfairCipher: DKFVCV
+2024-12-08 00:00:41,886 - logging_config - INFO - Initializing PlayfairCipher with key: KEYWORD
+2024-12-08 00:00:41,886 - logging_config - DEBUG - Generated Playfair key matrix: [['K', 'E', 'Y', 'W', 'O'], ['R', 'D', 'A', 'B', 'C'], ['F', 'G', 'H', 'I', 'L'], ['M', 'N', 'P', 'Q', 'S'], ['T', 'U', 'V', 'X', 'Z']]
+2024-12-08 00:00:41,886 - logging_config - INFO - Encrypting with PlayfairCipher: HELLO
+2024-12-08 00:07:57,108 - logging_config - INFO - Initializing PlayfairCipher with key: KEYWORD
+2024-12-08 00:07:57,109 - logging_config - DEBUG - Generated Playfair key matrix: [['K', 'E', 'Y', 'W', 'O'], ['R', 'D', 'A', 'B', 'C'], ['F', 'G', 'H', 'I', 'L'], ['M', 'N', 'P', 'Q', 'S'], ['T', 'U', 'V', 'X', 'Z']]
+2024-12-08 00:07:57,109 - logging_config - INFO - Decrypting with PlayfairCipher: DKFVCV
+2024-12-08 00:07:57,109 - logging_config - INFO - Processing text: DKFVCV, Mode: decrypt
+2024-12-08 00:07:57,109 - logging_config - DEBUG - Text pairs: ['DK', 'FV', 'CV']
+2024-12-08 00:07:57,109 - logging_config - DEBUG - Processing pair: DK
+2024-12-08 00:07:57,110 - logging_config - DEBUG - Positions: (1, 1), (0, 0)
+2024-12-08 00:07:57,110 - logging_config - DEBUG - Intermediate processed text: RE
+2024-12-08 00:07:57,110 - logging_config - DEBUG - Processing pair: FV
+2024-12-08 00:07:57,110 - logging_config - DEBUG - Positions: (2, 0), (4, 2)
+2024-12-08 00:07:57,110 - logging_config - DEBUG - Intermediate processed text: REHT
+2024-12-08 00:07:57,110 - logging_config - DEBUG - Processing pair: CV
+2024-12-08 00:07:57,110 - logging_config - DEBUG - Positions: (1, 4), (4, 2)
+2024-12-08 00:07:57,110 - logging_config - DEBUG - Intermediate processed text: REHTAZ
+2024-12-08 00:07:57,110 - logging_config - INFO - Final processed text: REHTAZ
+2024-12-08 00:07:57,111 - logging_config - INFO - Initializing PlayfairCipher with key: KEYWORD
+2024-12-08 00:07:57,111 - logging_config - DEBUG - Generated Playfair key matrix: [['K', 'E', 'Y', 'W', 'O'], ['R', 'D', 'A', 'B', 'C'], ['F', 'G', 'H', 'I', 'L'], ['M', 'N', 'P', 'Q', 'S'], ['T', 'U', 'V', 'X', 'Z']]
+2024-12-08 00:07:57,111 - logging_config - INFO - Encrypting with PlayfairCipher: HELLO
+2024-12-08 00:07:57,111 - logging_config - INFO - Processing text: HELLO, Mode: encrypt
+2024-12-08 00:07:57,111 - logging_config - DEBUG - Text pairs: ['HE', 'LX', 'LO']
+2024-12-08 00:07:57,111 - logging_config - DEBUG - Processing pair: HE
+2024-12-08 00:07:57,111 - logging_config - DEBUG - Positions: (2, 2), (0, 1)
+2024-12-08 00:07:57,111 - logging_config - DEBUG - Intermediate processed text: GY
+2024-12-08 00:07:57,111 - logging_config - DEBUG - Processing pair: LX
+2024-12-08 00:07:57,111 - logging_config - DEBUG - Positions: (2, 4), (4, 3)
+2024-12-08 00:07:57,111 - logging_config - DEBUG - Intermediate processed text: GYIZ
+2024-12-08 00:07:57,112 - logging_config - DEBUG - Processing pair: LO
+2024-12-08 00:07:57,112 - logging_config - DEBUG - Positions: (2, 4), (0, 4)
+2024-12-08 00:07:57,112 - logging_config - DEBUG - Intermediate processed text: GYIZSC
+2024-12-08 00:07:57,112 - logging_config - INFO - Final processed text: GYIZSC
+2024-12-08 00:20:46,470 - logging_config - INFO - Initializing PlayfairCipher with key: KEYWORD
+2024-12-08 00:20:46,470 - logging_config - DEBUG - Generated Playfair key matrix: [['K', 'E', 'Y', 'W', 'O'], ['R', 'D', 'A', 'B', 'C'], ['F', 'G', 'H', 'I', 'L'], ['M', 'N', 'P', 'Q', 'S'], ['T', 'U', 'V', 'X', 'Z']]
+2024-12-08 00:20:46,471 - logging_config - INFO - Decrypting with PlayfairCipher: DKFVCV
+2024-12-08 00:20:46,471 - logging_config - INFO - Processing text: DKFVCV, Mode: decrypt
+2024-12-08 00:20:46,471 - logging_config - DEBUG - Text pairs: ['DK', 'FV', 'CV']
+2024-12-08 00:20:46,471 - logging_config - DEBUG - Processing pair: DK
+2024-12-08 00:20:46,471 - logging_config - DEBUG - Positions: (1, 1), (0, 0)
+2024-12-08 00:20:46,471 - logging_config - DEBUG - Intermediate processed text: RE
+2024-12-08 00:20:46,471 - logging_config - DEBUG - Processing pair: FV
+2024-12-08 00:20:46,471 - logging_config - DEBUG - Positions: (2, 0), (4, 2)
+2024-12-08 00:20:46,471 - logging_config - DEBUG - Intermediate processed text: REHT
+2024-12-08 00:20:46,471 - logging_config - DEBUG - Processing pair: CV
+2024-12-08 00:20:46,471 - logging_config - DEBUG - Positions: (1, 4), (4, 2)
+2024-12-08 00:20:46,471 - logging_config - DEBUG - Intermediate processed text: REHTAZ
+2024-12-08 00:20:46,471 - logging_config - INFO - Final processed text: REHTAZ
+2024-12-08 00:20:46,471 - logging_config - INFO - Initializing PlayfairCipher with key: KEYWORD
+2024-12-08 00:20:46,471 - logging_config - DEBUG - Generated Playfair key matrix: [['K', 'E', 'Y', 'W', 'O'], ['R', 'D', 'A', 'B', 'C'], ['F', 'G', 'H', 'I', 'L'], ['M', 'N', 'P', 'Q', 'S'], ['T', 'U', 'V', 'X', 'Z']]
+2024-12-08 00:20:46,471 - logging_config - INFO - Encrypting with PlayfairCipher: HELLO
+2024-12-08 00:20:46,471 - logging_config - INFO - Processing text: HELLO, Mode: encrypt
+2024-12-08 00:20:46,471 - logging_config - DEBUG - Text pairs: ['HE', 'LX', 'LO']
+2024-12-08 00:20:46,471 - logging_config - DEBUG - Processing pair: HE
+2024-12-08 00:20:46,471 - logging_config - DEBUG - Positions: (2, 2), (0, 1)
+2024-12-08 00:20:46,471 - logging_config - DEBUG - Intermediate processed text: GY
+2024-12-08 00:20:46,471 - logging_config - DEBUG - Processing pair: LX
+2024-12-08 00:20:46,471 - logging_config - DEBUG - Positions: (2, 4), (4, 3)
+2024-12-08 00:20:46,471 - logging_config - DEBUG - Intermediate processed text: GYIZ
+2024-12-08 00:20:46,471 - logging_config - DEBUG - Processing pair: LO
+2024-12-08 00:20:46,471 - logging_config - DEBUG - Positions: (2, 4), (0, 4)
+2024-12-08 00:20:46,471 - logging_config - DEBUG - Intermediate processed text: GYIZSC
+2024-12-08 00:20:46,472 - logging_config - INFO - Final processed text: GYIZSC

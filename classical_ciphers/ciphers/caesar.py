@@ -7,9 +7,7 @@ from logging_config import logger
 class CaesarCipher:
     def __init__(self, key):
         if not isinstance(key, int) or not (1 <= key <= 25):
-            logger.error(
-                "Invalid key: %s (must be an integer between 1 and 25)", key
-            )
+            logger.error("Invalid key: %s (must be an integer between 1 and 25)", key)
             raise ValueError("Key must be an integer between 1 and 25.")
         self.key = key
         logger.info("Initialized CaesarCipher with key: %d", key)
@@ -23,7 +21,7 @@ class CaesarCipher:
         return self._shift_text(ciphertext, -self.key)
 
     def _shift_text(self, text, shift):
-        logger.debug("Shifting text: %s with shift: %d", text, shift)
+        logger.debug("Trace :Shifting text: %s with shift: %d", text, shift)
         result = ""
 
         for char in text:
@@ -35,5 +33,5 @@ class CaesarCipher:
                 result += chr(shifted)
             else:
                 result += char
-        logger.debug("Shifted text result: %s", result)
+        logger.debug("Trace : Shifted text result: %s", result)
         return result

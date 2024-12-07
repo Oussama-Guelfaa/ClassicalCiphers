@@ -1,0 +1,56 @@
+2024-12-07 23:42:14,911 - logging_config - INFO - Initialized CaesarCipher with key: 3
+2024-12-07 23:42:14,911 - logging_config - INFO - Decrypting with CaesarCipher: KHOOR
+2024-12-07 23:42:14,911 - logging_config - DEBUG - Trace :Shifting text: KHOOR with shift: -3
+2024-12-07 23:42:14,911 - logging_config - DEBUG - Trace : Shifted text result: HELLO
+2024-12-07 23:42:14,911 - logging_config - INFO - Initialized CaesarCipher with key: 3
+2024-12-07 23:42:14,911 - logging_config - INFO - Encrypting with CaesarCipher: HELLO
+2024-12-07 23:42:14,911 - logging_config - DEBUG - Trace :Shifting text: HELLO with shift: 3
+2024-12-07 23:42:14,911 - logging_config - DEBUG - Trace : Shifted text result: KHOOR
+2024-12-07 23:42:14,911 - logging_config - INFO - Initialized CaesarCipher with key: 3
+2024-12-07 23:42:14,911 - logging_config - INFO - Encrypting with CaesarCipher: HELLO WORLD!
+2024-12-07 23:42:14,911 - logging_config - DEBUG - Trace :Shifting text: HELLO WORLD! with shift: 3
+2024-12-07 23:42:14,911 - logging_config - DEBUG - Trace : Shifted text result: KHOOR ZRUOG!
+2024-12-07 23:43:35,676 - logging_config - INFO - Initializing PlayfairCipher with key: KEYWORD
+2024-12-07 23:43:35,676 - logging_config - DEBUG - Generated Playfair key matrix: [['K', 'E', 'Y', 'W', 'O'], ['R', 'D', 'A', 'B', 'C'], ['F', 'G', 'H', 'I', 'L'], ['M', 'N', 'P', 'Q', 'S'], ['T', 'U', 'V', 'X', 'Z']]
+2024-12-07 23:43:35,676 - logging_config - INFO - Decrypting with PlayfairCipher: DKFVCV
+2024-12-07 23:43:35,677 - logging_config - INFO - Initializing PlayfairCipher with key: KEYWORD
+2024-12-07 23:43:35,677 - logging_config - DEBUG - Generated Playfair key matrix: [['K', 'E', 'Y', 'W', 'O'], ['R', 'D', 'A', 'B', 'C'], ['F', 'G', 'H', 'I', 'L'], ['M', 'N', 'P', 'Q', 'S'], ['T', 'U', 'V', 'X', 'Z']]
+2024-12-07 23:43:35,678 - logging_config - INFO - Encrypting with PlayfairCipher: HELLO
+2024-12-07 23:43:41,935 - logging_config - INFO - Initialized VigenereCipher with key: KEY
+2024-12-07 23:43:41,936 - logging_config - INFO - Decrypting with VigenereCipher: RIJVS
+2024-12-07 23:43:41,936 - logging_config - INFO - Initialized VigenereCipher with key: KEY
+2024-12-07 23:43:41,936 - logging_config - INFO - Encrypting with VigenereCipher: HELLO
+2024-12-07 23:43:41,936 - logging_config - INFO - Initialized VigenereCipher with key: KEY
+2024-12-07 23:43:41,936 - logging_config - INFO - Encrypting with VigenereCipher: HELLO WORLD!
+2024-12-07 23:50:21,046 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-07 23:50:26,408 - logging_config - WARNING - Invalid cipher choice: (
+2024-12-07 23:52:33,325 - logging_config - INFO - Initialized VigenereCipher with key: KEY
+2024-12-07 23:52:33,326 - logging_config - INFO - Decrypting with VigenereCipher: RIJVS
+2024-12-07 23:52:33,326 - logging_config - INFO - Initialized VigenereCipher with key: KEY
+2024-12-07 23:52:33,326 - logging_config - INFO - Encrypting with VigenereCipher: HELLO
+2024-12-07 23:52:33,326 - logging_config - INFO - Initialized VigenereCipher with key: KEY
+2024-12-07 23:52:33,326 - logging_config - INFO - Encrypting with VigenereCipher: HELLO WORLD!
+2024-12-07 23:53:35,350 - logging_config - INFO - Initialized VigenereCipher with key: KEY
+2024-12-07 23:53:35,350 - logging_config - INFO - Decrypting with VigenereCipher: RIJVS
+2024-12-07 23:53:35,350 - logging_config - INFO - Initialized VigenereCipher with key: KEY
+2024-12-07 23:53:35,350 - logging_config - INFO - Encrypting with VigenereCipher: HELLO
+2024-12-07 23:53:35,350 - logging_config - INFO - Initialized VigenereCipher with key: KEY
+2024-12-07 23:53:35,350 - logging_config - INFO - Encrypting with VigenereCipher: HELLO WORLD!
+2024-12-07 23:53:40,430 - logging_config - INFO - Initializing PlayfairCipher with key: KEYWORD
+2024-12-07 23:53:40,430 - logging_config - DEBUG - Generated Playfair key matrix: [['K', 'E', 'Y', 'W', 'O'], ['R', 'D', 'A', 'B', 'C'], ['F', 'G', 'H', 'I', 'L'], ['M', 'N', 'P', 'Q', 'S'], ['T', 'U', 'V', 'X', 'Z']]
+2024-12-07 23:53:40,430 - logging_config - INFO - Decrypting with PlayfairCipher: DKFVCV
+2024-12-07 23:53:40,432 - logging_config - INFO - Initializing PlayfairCipher with key: KEYWORD
+2024-12-07 23:53:40,432 - logging_config - DEBUG - Generated Playfair key matrix: [['K', 'E', 'Y', 'W', 'O'], ['R', 'D', 'A', 'B', 'C'], ['F', 'G', 'H', 'I', 'L'], ['M', 'N', 'P', 'Q', 'S'], ['T', 'U', 'V', 'X', 'Z']]
+2024-12-07 23:53:40,432 - logging_config - INFO - Encrypting with PlayfairCipher: HELLO
+2024-12-07 23:55:24,238 - logging_config - INFO - Initialized CaesarCipher with key: 3
+2024-12-07 23:55:24,238 - logging_config - INFO - Decrypting with CaesarCipher: KHOOR
+2024-12-07 23:55:24,238 - logging_config - DEBUG - Trace :Shifting text: KHOOR with shift: -3
+2024-12-07 23:55:24,238 - logging_config - DEBUG - Trace : Shifted text result: HELLO
+2024-12-07 23:55:24,238 - logging_config - INFO - Initialized CaesarCipher with key: 3
+2024-12-07 23:55:24,238 - logging_config - INFO - Encrypting with CaesarCipher: HELLO
+2024-12-07 23:55:24,238 - logging_config - DEBUG - Trace :Shifting text: HELLO with shift: 3
+2024-12-07 23:55:24,238 - logging_config - DEBUG - Trace : Shifted text result: KHOOR
+2024-12-07 23:55:24,239 - logging_config - INFO - Initialized CaesarCipher with key: 3
+2024-12-07 23:55:24,239 - logging_config - INFO - Encrypting with CaesarCipher: HELLO WORLD!
+2024-12-07 23:55:24,239 - logging_config - DEBUG - Trace :Shifting text: HELLO WORLD! with shift: 3
+2024-12-07 23:55:24,239 - logging_config - DEBUG - Trace : Shifted text result: KHOOR ZRUOG!

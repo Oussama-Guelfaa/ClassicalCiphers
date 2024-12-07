@@ -2,7 +2,7 @@
 max-line-length = 88
 
 # Ignore specific errors and warnings
-ignore = E203, E501, W503, F403
+ignore = E203, E501, W503, F403, E402, E713
 
 # Specify which checks to include
 select = E, W, F, C90

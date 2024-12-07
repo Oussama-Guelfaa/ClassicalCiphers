@@ -51,7 +51,7 @@ def main():
             logger.info("Frequency Analysis result: %s", frequencies)
             print("Frequency Analysis:")
             for char, freq in sorted(frequencies.items()):
-                print(f"{char}: {freq:.2f}%")
+                print(f"{char}: {freq: .2f}%")
         else:
             logger.warning("Invalid mode selected: %s", mode)
             print("Invalid mode!")
@@ -59,8 +59,8 @@ def main():
         logger.error("An error occurred: %s", e)
         print(f"Error: {e}")
     except Exception as e:
-        logger.critical("Critical error occurred: %s", e)
-        print(f"Critical Error: {e}")
+        logger.critical("Fatal error occurred: %s", e)
+        print(f"Fatal Error: {e}")
 
 
 if __name__ == "__main__":

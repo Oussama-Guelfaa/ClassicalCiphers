@@ -24,17 +24,21 @@ class PlayfairCipher:
         alphabet = "ABCDEFGHIKLMNOPQRSTUVWXYZ"
         key_matrix = [char for char in key if char in alphabet]
         key_matrix += [char for char in alphabet if char not in key_matrix]
-        return [key_matrix[i:i + 5] for i in range(0, 25, 5)]
+        return [key_matrix[i : i + 5] for i in range(0, 25, 5)]
 
     def _process_text(self, text, mode):
+        logger.info("Processing text: %s, Mode: %s", text, mode)
         text = text.upper().replace("J", "I")
         text = re.sub(r"[^A-Z]", "", text)
         pairs = self._create_pairs(text)
+        logger.debug("Text pairs: %s", pairs)
         processed_text = ""
 
         for pair in pairs:
+            logger.debug("Processing pair: %s", pair)
             pos1 = self._find_position(pair[0])
             pos2 = self._find_position(pair[1])
+            logger.debug("Positions: %s, %s", pos1, pos2)
 
             if pos1[0] == pos2[0]:
                 # Same row
@@ -51,7 +55,9 @@ class PlayfairCipher:
                 processed_text += (
                     self.key[pos1[0]][pos2[1]] + self.key[pos2[0]][pos1[1]]
                 )
+            logger.debug("Intermediate processed text: %s", processed_text)
 
+        logger.info("Final processed text: %s", processed_text)
         return processed_text
 
     def _create_pairs(self, text):
