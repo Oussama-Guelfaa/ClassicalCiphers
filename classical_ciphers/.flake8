@@ -1,7 +1,18 @@
 [flake8]
 max-line-length = 88
-ignore = E501,W503
-exclude =
+
+# Ignore specific errors and warnings
+ignore = E203, E501, W503, F403
+
+# Specify which checks to include
+select = E, W, F, C90
+
+# Exclude specific directories or files
+exclude = 
     .git,
     __pycache__,
-    env/
+    env/,
+    dist/
+
+# Set a maximum cyclomatic complexity for code
+max-complexity = 10
