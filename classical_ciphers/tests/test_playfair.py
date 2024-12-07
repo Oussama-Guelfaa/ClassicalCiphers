@@ -3,14 +3,16 @@
 import unittest
 from ciphers.playfair import PlayfairCipher
 
+
 class TestPlayfairCipher(unittest.TestCase):
     def test_encrypt(self):
-        cipher = PlayfairCipher('KEYWORD')
-        self.assertEqual(cipher.encrypt('HELLO'), 'DKFVCV')
+        cipher = PlayfairCipher("KEYWORD")
+        self.assertEqual(cipher.encrypt("HELLO"), "DKFVCV")
 
     def test_decrypt(self):
-        cipher = PlayfairCipher('KEYWORD')
-        self.assertEqual(cipher.decrypt('DKFVCV'), 'HELXLO')
+        cipher = PlayfairCipher("KEYWORD")
+        self.assertEqual(cipher.decrypt("DKFVCV"), "HELXLO")
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     unittest.main()

@@ -15,4 +15,4 @@ exclude =
     dist/
 
 # Set a maximum cyclomatic complexity for code
-max-complexity = 10
+max-complexity = 20

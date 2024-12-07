@@ -1,5 +1,4 @@
 # ciphers/caesar.py
-
 class CaesarCipher:
     def __init__(self, key):
         if not isinstance(key, int) or not (1 <= key <= 25):
@@ -17,10 +16,10 @@ class CaesarCipher:
 
         for char in text:
             if char.isupper():
-                shifted = ((ord(char) - ord('A') + shift) % 26) + ord('A')
+                shifted = ((ord(char) - ord("A") + shift) % 26) + ord("A")
                 result += chr(shifted)
             elif char.islower():
-                shifted = ((ord(char) - ord('a') + shift) % 26) + ord('a')
+                shifted = ((ord(char) - ord("a") + shift) % 26) + ord("a")
                 result += chr(shifted)
             else:
                 result += char
