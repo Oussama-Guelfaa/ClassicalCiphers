@@ -1,0 +1,10 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Python build artifacts
+__pycache__/
+*.pyc
+*.pyo
+classical_ciphers.egg-info/
+dist/
+
