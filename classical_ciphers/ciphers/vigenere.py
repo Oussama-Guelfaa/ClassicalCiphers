@@ -1,16 +1,22 @@
 # ciphers/vigenere.py
 
+from logging_config import logger
+
 
 class VigenereCipher:
     def __init__(self, key):
         if not key.isalpha():
+            logger.error("Invalid Vigenere key: %s (must be alphabetic)", key)
             raise ValueError("Key must consist of alphabetic characters only.")
         self.key = key.upper()
+        logger.info("Initialized VigenereCipher with key: %s", self.key)
 
     def encrypt(self, plaintext):
+        logger.info("Encrypting with VigenereCipher: %s", plaintext)
         return self._transform(plaintext, mode="encrypt")
 
     def decrypt(self, ciphertext):
+        logger.info("Decrypting with VigenereCipher: %s", ciphertext)
         return self._transform(ciphertext, mode="decrypt")
 
     def _transform(self, text, mode):

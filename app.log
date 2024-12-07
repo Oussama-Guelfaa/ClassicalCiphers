@@ -1,0 +1,15 @@
+2024-12-07 21:41:31,100 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-07 21:41:43,601 - logging_config - WARNING - Invalid cipher choice: 4
+2024-12-07 21:42:07,444 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-07 21:42:27,644 - logging_config - ERROR - Invalid Vigenere key: guelfaa oussama (must be alphabetic)
+2024-12-07 21:44:40,750 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-07 21:44:57,529 - logging_config - INFO - Initializing PlayfairCipher with key: guelfaa oussama
+2024-12-07 21:44:57,532 - logging_config - ERROR - An error occurred: substring not found
+2024-12-07 21:45:13,258 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-07 21:45:44,617 - logging_config - ERROR - An error occurred: invalid literal for int() with base 10: 'guelfaa'
+2024-12-07 21:46:03,812 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-07 21:46:10,081 - logging_config - INFO - Initialized CaesarCipher with key: 22
+2024-12-07 21:46:27,903 - logging_config - INFO - Encrypting with CaesarCipher: oussama guelfaa
+2024-12-07 21:46:27,903 - logging_config - DEBUG - Shifting text: oussama guelfaa with shift: 22
+2024-12-07 21:46:27,903 - logging_config - DEBUG - Shifted text result: kqoowiw cqahbww
+2024-12-07 21:46:27,904 - logging_config - INFO - Encryption result: kqoowiw cqahbww

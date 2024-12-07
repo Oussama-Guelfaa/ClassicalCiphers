@@ -1,16 +1,21 @@
 # ciphers/playfair.py
 
 import re
+from logging_config import logger
 
 
 class PlayfairCipher:
     def __init__(self, key):
+        logger.info("Initializing PlayfairCipher with key: %s", key)
         self.key = self._generate_key_matrix(key)
+        logger.debug("Generated Playfair key matrix: %s", self.key)
 
     def encrypt(self, plaintext):
+        logger.info("Encrypting with PlayfairCipher: %s", plaintext)
         return self._process_text(plaintext, mode="encrypt")
 
     def decrypt(self, ciphertext):
+        logger.info("Decrypting with PlayfairCipher: %s", ciphertext)
         return self._process_text(ciphertext, mode="decrypt")
 
     def _generate_key_matrix(self, key):
