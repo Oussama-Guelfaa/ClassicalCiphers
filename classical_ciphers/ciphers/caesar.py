@@ -33,5 +33,6 @@ class CaesarCipher:
                 result += chr(shifted)
             else:
                 result += char
+
         logger.debug("Trace : Shifted text result: %s", result)
         return result

@@ -13,3 +13,51 @@
 2024-12-07 21:46:27,903 - logging_config - DEBUG - Shifting text: oussama guelfaa with shift: 22
 2024-12-07 21:46:27,903 - logging_config - DEBUG - Shifted text result: kqoowiw cqahbww
 2024-12-07 21:46:27,904 - logging_config - INFO - Encryption result: kqoowiw cqahbww
+2024-12-09 20:14:14,355 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-09 20:14:14,356 - logging_config - CRITICAL - Fatal error occurred: name 'choice' is not defined
+2024-12-09 20:14:47,388 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-09 20:15:40,811 - logging_config - INFO - Initialized CaesarCipher with key: 1
+2024-12-09 20:15:55,785 - logging_config - INFO - Encrypting with CaesarCipher: Hello World!
+2024-12-09 20:15:55,785 - logging_config - DEBUG - Trace :Shifting text: Hello World! with shift: 1
+2024-12-09 20:15:55,786 - logging_config - DEBUG - Trace : Shifted text result: Ifmmp Xpsme!
+2024-12-09 20:15:55,786 - logging_config - INFO - Encryption result: Ifmmp Xpsme!
+2024-12-09 20:16:30,492 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-09 20:16:35,994 - logging_config - INFO - Initialized CaesarCipher with key: 1
+2024-12-09 20:16:44,145 - logging_config - INFO - Encrypting with CaesarCipher: Hello World!
+2024-12-09 20:16:44,146 - logging_config - DEBUG - Trace :Shifting text: Hello World! with shift: 1
+2024-12-09 20:16:44,146 - logging_config - DEBUG - Trace : Shifted text result: Ifmmp Xpsme!
+2024-12-09 20:16:44,146 - logging_config - INFO - Encryption result: Ifmmp Xpsme!
+2024-12-09 20:20:05,478 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-09 20:20:17,009 - logging_config - INFO - Initialized CaesarCipher with key: 1
+2024-12-09 20:20:40,210 - logging_config - INFO - Encrypting with CaesarCipher: guelfaao@gmail.com ha ç
+2024-12-09 20:20:40,212 - logging_config - DEBUG - Trace :Shifting text: guelfaao@gmail.com ha ç with shift: 1
+2024-12-09 20:20:40,212 - logging_config - DEBUG - Trace : Shifted text result: hvfmgbbphnbjmdpnibf
+2024-12-09 20:20:40,212 - logging_config - INFO - Encryption result: hvfmgbbphnbjmdpnibf
+2024-12-09 20:20:58,946 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-09 20:21:23,336 - logging_config - INFO - Initialized CaesarCipher with key: 1
+2024-12-09 20:21:47,122 - logging_config - INFO - Encrypting with CaesarCipher: guelfaao@gmail.com ha ç
+2024-12-09 20:21:47,124 - logging_config - DEBUG - Trace :Shifting text: guelfaao@gmail.com ha ç with shift: 1
+2024-12-09 20:21:47,124 - logging_config - DEBUG - Trace : Shifted text result: hvfmgbbp@hnbjm.dpn ib f
+2024-12-09 20:21:47,124 - logging_config - INFO - Encryption result: hvfmgbbp@hnbjm.dpn ib f
+2024-12-09 20:26:32,160 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-09 20:28:55,523 - logging_config - WARNING - Invalid cipher choice: dfd
+2024-12-09 20:33:51,614 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-09 20:35:05,887 - logging_config - INFO - Initialized CaesarCipher with key: 1
+2024-12-09 20:35:39,862 - logging_config - WARNING - Invalid mode selected: 
+2024-12-09 20:36:58,443 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-09 20:38:02,251 - logging_config - INFO - Initialized CaesarCipher with key: 1
+2024-12-09 20:39:08,159 - logging_config - INFO - Encrypting with CaesarCipher: hello@world
+2024-12-09 20:39:10,813 - logging_config - DEBUG - Trace :Shifting text: hello@world with shift: 1
+2024-12-09 20:40:31,691 - logging_config - DEBUG - Trace : Shifted text result: ifmmp@xpsme
+2024-12-09 20:41:39,886 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-09 20:41:45,059 - logging_config - INFO - Initialized CaesarCipher with key: 1
+2024-12-09 20:41:52,756 - logging_config - INFO - Encrypting with CaesarCipher: h@l
+2024-12-09 20:41:52,757 - logging_config - DEBUG - Trace :Shifting text: h@l with shift: 1
+2024-12-09 20:41:52,757 - logging_config - DEBUG - Trace : Shifted text result: im
+2024-12-09 20:41:52,757 - logging_config - INFO - Encryption result: im
+2024-12-09 20:42:08,216 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-09 20:42:18,355 - logging_config - INFO - Initialized CaesarCipher with key: 1
+2024-12-09 20:42:40,352 - logging_config - INFO - Encrypting with CaesarCipher: h@l
+2024-12-09 20:42:44,607 - logging_config - DEBUG - Trace :Shifting text: h@l with shift: 1
+2024-12-09 20:43:27,869 - logging_config - DEBUG - Trace : Shifted text result: im
+2024-12-09 20:43:34,115 - logging_config - INFO - Encryption result: im

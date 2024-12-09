@@ -10,10 +10,17 @@ from frequency_analysis import FrequencyAnalysis
 
 def main():
     logger.info("Starting Classical Ciphers Program")
-    print("Classical Ciphers Program")
-    print("1. Caesar Cipher")
-    print("2. Vigenère Cipher")
-    print("3. Playfair Cipher")
+    print("*" * 40)
+    print("*" + " " * 38 + "*")
+    print("*" + " Classical Ciphers Program".center(38) + "*")
+    print("*" + " " * 38 + "*")
+    print("*" * 40)
+    print("\nChoose a Cipher:")
+    print("★ 1. Caesar Cipher")
+    print("★ 2. Vigenère Cipher")
+    print("★ 3. Playfair Cipher")
+    print("\n" + "*" * 40)
+
     choice = input("Select a cipher (1-3): ").strip()
 
     try:
