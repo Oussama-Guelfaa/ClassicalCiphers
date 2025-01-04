@@ -61,3 +61,256 @@
 2024-12-09 20:42:44,607 - logging_config - DEBUG - Trace :Shifting text: h@l with shift: 1
 2024-12-09 20:43:27,869 - logging_config - DEBUG - Trace : Shifted text result: im
 2024-12-09 20:43:34,115 - logging_config - INFO - Encryption result: im
+2024-12-09 21:01:29,485 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-09 21:01:34,546 - logging_config - INFO - Initialized CaesarCipher with key: 1
+2024-12-09 21:01:41,528 - logging_config - INFO - Encrypting with CaesarCipher: Hdfkjdf@hjfsd
+2024-12-09 21:01:41,530 - logging_config - DEBUG - Trace :Shifting text: Hdfkjdf@hjfsd with shift: 1
+2024-12-09 21:02:17,840 - logging_config - DEBUG - Trace : Shifted text result: Ieglkeg@ikgte
+2024-12-09 21:02:18,274 - logging_config - INFO - Encryption result: Ieglkeg@ikgte
+2024-12-10 17:01:37,125 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-10 17:01:43,365 - logging_config - INFO - Initialized CaesarCipher with key: 1
+2024-12-10 17:01:49,460 - logging_config - INFO - Encrypting with CaesarCipher: Hello
+2024-12-10 17:01:49,461 - logging_config - DEBUG - Trace :Shifting text: Hello with shift: 1
+2024-12-10 17:01:49,461 - logging_config - DEBUG - Trace : Shifted text result: Ifmmp
+2024-12-10 17:01:49,461 - logging_config - INFO - Encryption result: Ifmmp
+2024-12-10 17:01:55,542 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-10 17:01:59,341 - logging_config - INFO - Initialized CaesarCipher with key: 1
+2024-12-10 17:02:04,092 - logging_config - INFO - Decrypting with CaesarCipher: Ifmmp
+2024-12-10 17:02:04,093 - logging_config - DEBUG - Trace :Shifting text: Ifmmp with shift: -1
+2024-12-10 17:02:04,093 - logging_config - DEBUG - Trace : Shifted text result: Hello
+2024-12-10 17:02:04,093 - logging_config - INFO - Decryption result: Hello
+2024-12-10 17:06:09,536 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-10 17:06:16,067 - logging_config - INFO - Initialized CaesarCipher with key: 3
+2024-12-10 17:06:22,931 - logging_config - INFO - Encrypting with CaesarCipher: HELLO
+2024-12-10 17:06:22,931 - logging_config - DEBUG - Trace :Shifting text: HELLO with shift: 3
+2024-12-10 17:06:22,931 - logging_config - DEBUG - Trace : Shifted text result: KHOOR
+2024-12-10 17:06:22,931 - logging_config - INFO - Encryption result: KHOOR
+2024-12-10 17:06:30,908 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-10 17:06:34,955 - logging_config - INFO - Initialized CaesarCipher with key: 3
+2024-12-10 17:06:47,611 - logging_config - INFO - Decrypting with CaesarCipher: KHOOR
+2024-12-10 17:06:47,612 - logging_config - DEBUG - Trace :Shifting text: KHOOR with shift: -3
+2024-12-10 17:06:47,612 - logging_config - DEBUG - Trace : Shifted text result: HELLO
+2024-12-10 17:06:47,612 - logging_config - INFO - Decryption result: HELLO
+2024-12-10 17:07:15,378 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-10 17:07:26,651 - logging_config - INFO - Initialized CaesarCipher with key: 1
+2024-12-10 17:07:35,308 - logging_config - INFO - Encrypting with CaesarCipher: Hello
+2024-12-10 17:07:35,310 - logging_config - DEBUG - Trace :Shifting text: Hello with shift: 1
+2024-12-10 17:07:35,310 - logging_config - DEBUG - Trace : Shifted text result: Gfmmp
+2024-12-10 17:07:35,310 - logging_config - INFO - Encryption result: Gfmmp
+2024-12-10 17:07:51,474 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-10 17:08:00,578 - logging_config - INFO - Initialized CaesarCipher with key: 1
+2024-12-10 17:08:10,390 - logging_config - INFO - Decrypting with CaesarCipher: Gfmmp
+2024-12-10 17:08:10,391 - logging_config - DEBUG - Trace :Shifting text: Gfmmp with shift: -1
+2024-12-10 17:08:10,391 - logging_config - DEBUG - Trace : Shifted text result: Hello
+2024-12-10 17:08:10,391 - logging_config - INFO - Decryption result: Hello
+2024-12-10 17:10:01,449 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-10 17:10:04,954 - logging_config - INFO - Initialized CaesarCipher with key: 1
+2024-12-10 17:10:16,819 - logging_config - INFO - Encrypting with CaesarCipher: f@f
+2024-12-10 17:10:16,819 - logging_config - DEBUG - Trace :Shifting text: f@f with shift: 1
+2024-12-10 17:10:16,820 - logging_config - DEBUG - Trace : Shifted text result: g@g
+2024-12-10 17:10:16,820 - logging_config - INFO - Encryption result: g@g
+2024-12-10 17:10:34,550 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-10 17:10:37,859 - logging_config - INFO - Initialized CaesarCipher with key: 1
+2024-12-10 17:10:44,679 - logging_config - INFO - Encrypting with CaesarCipher: f@f
+2024-12-10 17:10:44,680 - logging_config - DEBUG - Trace :Shifting text: f@f with shift: 1
+2024-12-10 17:10:44,680 - logging_config - DEBUG - Trace : Shifted text result: gg
+2024-12-10 17:10:44,680 - logging_config - INFO - Encryption result: gg
+2024-12-10 17:10:50,380 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-10 17:10:53,593 - logging_config - INFO - Initialized CaesarCipher with key: 1
+2024-12-10 17:10:58,563 - logging_config - INFO - Decrypting with CaesarCipher: gg
+2024-12-10 17:10:58,563 - logging_config - DEBUG - Trace :Shifting text: gg with shift: -1
+2024-12-10 17:10:58,564 - logging_config - DEBUG - Trace : Shifted text result: ff
+2024-12-10 17:10:58,564 - logging_config - INFO - Decryption result: ff
+2024-12-10 17:13:05,508 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-10 17:13:09,052 - logging_config - INFO - Initialized CaesarCipher with key: 1
+2024-12-10 17:13:15,129 - logging_config - INFO - Encrypting with CaesarCipher: f@f
+2024-12-10 17:13:15,130 - logging_config - DEBUG - Trace :Shifting text: f@f with shift: 1
+2024-12-10 17:13:15,131 - logging_config - DEBUG - Trace : Shifted text result: gg
+2024-12-10 17:13:15,131 - logging_config - INFO - Encryption result: gg
+2024-12-10 17:18:01,843 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-10 17:18:07,007 - logging_config - INFO - Initialized CaesarCipher with key: 1
+2024-12-10 17:18:12,199 - logging_config - INFO - Encrypting with CaesarCipher: f@f
+2024-12-10 17:18:12,200 - logging_config - DEBUG - Trace :Shifting text: f@f with shift: 1
+2024-12-10 17:18:12,200 - logging_config - DEBUG - Trace : Shifted text result: gg
+2024-12-10 17:18:12,200 - logging_config - INFO - Encryption result: gg
+2024-12-10 17:21:27,263 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-10 17:21:31,003 - logging_config - INFO - Initialized CaesarCipher with key: 1
+2024-12-10 17:21:38,177 - logging_config - INFO - Encrypting with CaesarCipher: ff@ƒf
+2024-12-10 17:21:38,177 - logging_config - DEBUG - Trace :Shifting text: ff@ƒf with shift: 1
+2024-12-10 17:21:38,178 - logging_config - DEBUG - Trace :f Shifted text  g
+2024-12-10 17:21:38,178 - logging_config - DEBUG - Trace :f Shifted text  gg
+2024-12-10 17:21:38,178 - logging_config - DEBUG - Trace :ƒ Shifted text  ggu
+2024-12-10 17:21:38,178 - logging_config - DEBUG - Trace :f Shifted text  ggug
+2024-12-10 17:21:38,178 - logging_config - DEBUG - Trace : Shifted text result: ggug
+2024-12-10 17:21:38,178 - logging_config - INFO - Encryption result: ggug
+2024-12-10 18:04:24,772 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-10 18:04:28,811 - logging_config - INFO - Initialized CaesarCipher with key: 1
+2024-12-10 18:04:35,954 - logging_config - INFO - Encrypting with CaesarCipher: f@f
+2024-12-10 18:04:35,955 - logging_config - DEBUG - Trace :Shifting text: f@f with shift: 1
+2024-12-10 18:05:46,138 - logging_config - DEBUG - Trace :f Shifted text  g
+2024-12-10 18:06:21,224 - logging_config - DEBUG - Trace :f Shifted text  gg
+2024-12-10 18:06:22,590 - logging_config - DEBUG - Trace : Shifted text result: gg
+2024-12-10 18:06:30,265 - logging_config - INFO - Encryption result: gg
+2024-12-10 18:23:59,912 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-10 18:24:03,592 - logging_config - INFO - Initialized CaesarCipher with key: 1
+2024-12-10 18:24:16,891 - logging_config - INFO - Encrypting with CaesarCipher: f@f
+2024-12-10 18:24:16,892 - logging_config - DEBUG - Trace :Shifting text: f@f with shift: 1
+2024-12-10 18:24:16,892 - logging_config - DEBUG - Trace :f Shifted text  g
+2024-12-10 18:24:16,892 - logging_config - DEBUG - Trace :f Shifted text  gg
+2024-12-10 18:24:16,892 - logging_config - DEBUG - Trace : Shifted text result: gg
+2024-12-10 18:24:16,892 - logging_config - INFO - Encryption result: gg
+2024-12-10 18:24:34,338 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-10 18:24:37,572 - logging_config - INFO - Initialized CaesarCipher with key: 1
+2024-12-10 18:24:46,594 - logging_config - INFO - Decrypting with CaesarCipher: gg
+2024-12-10 18:24:46,595 - logging_config - DEBUG - Trace :Shifting text: gg with shift: -1
+2024-12-10 18:24:46,595 - logging_config - DEBUG - Trace :g Shifted text  f
+2024-12-10 18:24:46,595 - logging_config - DEBUG - Trace :g Shifted text  ff
+2024-12-10 18:24:46,595 - logging_config - DEBUG - Trace : Shifted text result: ff
+2024-12-10 18:24:46,596 - logging_config - INFO - Decryption result: ff
+2024-12-10 18:25:18,336 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-10 18:35:20,341 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-10 18:35:24,313 - logging_config - INFO - Initialized CaesarCipher with key: 1
+2024-12-10 18:35:28,489 - logging_config - INFO - Encrypting with CaesarCipher: f@f
+2024-12-10 18:35:28,490 - logging_config - DEBUG - Trace :Shifting text: f@f with shift: 1
+2024-12-10 18:35:28,490 - logging_config - DEBUG - Trace :f Shifted text  g
+2024-12-10 18:35:28,490 - logging_config - DEBUG - Trace :f Shifted text  gg
+2024-12-10 18:35:28,490 - logging_config - DEBUG - Trace : Shifted text result: gg
+2024-12-10 18:35:28,490 - logging_config - INFO - Encryption result: gg
+2024-12-10 18:35:44,012 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-10 18:35:46,977 - logging_config - INFO - Initialized CaesarCipher with key: 1
+2024-12-10 18:35:52,922 - logging_config - INFO - Decrypting with CaesarCipher: gg
+2024-12-10 18:35:52,922 - logging_config - DEBUG - Trace :Shifting text: gg with shift: -1
+2024-12-10 18:35:52,922 - logging_config - DEBUG - Trace :g Shifted text  f
+2024-12-10 18:35:52,922 - logging_config - DEBUG - Trace :g Shifted text  ff
+2024-12-10 18:35:52,922 - logging_config - DEBUG - Trace : Shifted text result: ff
+2024-12-10 18:35:52,922 - logging_config - INFO - Decryption result: ff
+2024-12-10 18:36:21,872 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-10 18:36:58,662 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-10 18:37:03,345 - logging_config - INFO - Initialized CaesarCipher with key: 1
+2024-12-10 18:37:08,466 - logging_config - INFO - Encrypting with CaesarCipher: f@f
+2024-12-10 18:37:08,467 - logging_config - DEBUG - Trace :Shifting text: f@f with shift: 1
+2024-12-10 18:37:18,638 - logging_config - DEBUG - Trace :f Shifted text  g
+2024-12-10 18:37:30,394 - logging_config - DEBUG - Trace :f Shifted text  gg
+2024-12-10 18:37:32,162 - logging_config - DEBUG - Trace : Shifted text result: gg
+2024-12-10 18:39:41,276 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-10 18:39:49,744 - logging_config - INFO - Initialized CaesarCipher with key: 1
+2024-12-10 18:39:55,510 - logging_config - INFO - Encrypting with CaesarCipher: f@f
+2024-12-10 18:39:55,510 - logging_config - DEBUG - Trace :Shifting text: f@f with shift: 1
+2024-12-10 18:39:55,511 - logging_config - DEBUG - Trace :f Shifted text  g
+2024-12-10 18:39:55,511 - logging_config - DEBUG - Trace :f Shifted text  gg
+2024-12-10 18:39:55,511 - logging_config - DEBUG - Trace : Shifted text result: gg
+2024-12-10 18:39:55,511 - logging_config - INFO - Encryption result: gg
+2024-12-10 18:40:07,099 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-10 18:40:10,136 - logging_config - INFO - Initialized CaesarCipher with key: 1
+2024-12-10 18:40:14,861 - logging_config - INFO - Decrypting with CaesarCipher: gg
+2024-12-10 18:40:14,861 - logging_config - DEBUG - Trace :Shifting text: gg with shift: -1
+2024-12-10 18:40:14,861 - logging_config - DEBUG - Trace :g Shifted text  f
+2024-12-10 18:40:14,861 - logging_config - DEBUG - Trace :g Shifted text  ff
+2024-12-10 18:40:14,861 - logging_config - DEBUG - Trace : Shifted text result: ff
+2024-12-10 18:40:14,861 - logging_config - INFO - Decryption result: ff
+2024-12-10 18:40:28,501 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-10 18:40:32,797 - logging_config - INFO - Initialized CaesarCipher with key: 1
+2024-12-10 18:40:38,525 - logging_config - INFO - Encrypting with CaesarCipher: f@f
+2024-12-10 18:40:38,526 - logging_config - DEBUG - Trace :Shifting text: f@f with shift: 1
+2024-12-10 18:40:53,150 - logging_config - DEBUG - Trace :f Shifted text  g
+2024-12-10 18:41:08,699 - logging_config - DEBUG - Trace :f Shifted text  gg
+2024-12-10 18:43:43,540 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-10 18:43:47,262 - logging_config - INFO - Initialized CaesarCipher with key: 1
+2024-12-10 18:43:51,716 - logging_config - INFO - Encrypting with CaesarCipher: f@f
+2024-12-10 18:43:51,724 - logging_config - DEBUG - Trace :Shifting text: f@f with shift: 1
+2024-12-10 18:43:51,725 - logging_config - DEBUG - Trace :f Shifted text  g
+2024-12-10 18:43:51,725 - logging_config - DEBUG - Trace :f Shifted text  gg
+2024-12-10 18:43:51,725 - logging_config - DEBUG - Trace : Shifted text result: gg
+2024-12-10 18:43:51,725 - logging_config - INFO - Encryption result: gg
+2024-12-10 18:44:10,362 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-10 18:44:16,205 - logging_config - INFO - Initialized CaesarCipher with key: 1
+2024-12-10 18:44:20,235 - logging_config - INFO - Encrypting with CaesarCipher: f@f
+2024-12-10 18:44:20,242 - logging_config - DEBUG - Trace :Shifting text: f@f with shift: 1
+2024-12-10 18:44:20,242 - logging_config - DEBUG - Trace :f Shifted text  g
+2024-12-10 18:44:20,242 - logging_config - DEBUG - Trace :f Shifted text  g@g
+2024-12-10 18:44:20,242 - logging_config - DEBUG - Trace : Shifted text result: g@g
+2024-12-10 18:44:20,242 - logging_config - INFO - Encryption result: g@g
+2024-12-10 18:44:24,587 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-10 18:44:28,562 - logging_config - INFO - Initialized CaesarCipher with key: 1
+2024-12-10 18:44:33,011 - logging_config - INFO - Decrypting with CaesarCipher: g@g
+2024-12-10 18:44:33,012 - logging_config - DEBUG - Trace :Shifting text: g@g with shift: -1
+2024-12-10 18:44:33,012 - logging_config - DEBUG - Trace :g Shifted text  f
+2024-12-10 18:44:33,012 - logging_config - DEBUG - Trace :g Shifted text  f@f
+2024-12-10 18:44:33,012 - logging_config - DEBUG - Trace : Shifted text result: f@f
+2024-12-10 18:44:33,012 - logging_config - INFO - Decryption result: f@f
+2024-12-10 18:46:19,644 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-10 18:46:22,944 - logging_config - INFO - Initialized CaesarCipher with key: 1
+2024-12-10 18:46:27,458 - logging_config - INFO - Encrypting with CaesarCipher: f@f
+2024-12-10 18:46:27,459 - logging_config - DEBUG - Trace :Shifting text: f@f with shift: 1
+2024-12-10 18:46:27,459 - logging_config - DEBUG - Trace :f Shifted text  g
+2024-12-10 18:46:27,459 - logging_config - DEBUG - Trace :f Shifted text  gg
+2024-12-10 18:46:27,459 - logging_config - DEBUG - Trace : Shifted text result: gg
+2024-12-10 18:46:27,459 - logging_config - INFO - Encryption result: gg
+2024-12-10 18:46:38,149 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-10 18:46:40,955 - logging_config - INFO - Initialized CaesarCipher with key: 1
+2024-12-10 18:46:44,654 - logging_config - INFO - Decrypting with CaesarCipher: gg
+2024-12-10 18:46:44,654 - logging_config - DEBUG - Trace :Shifting text: gg with shift: -1
+2024-12-10 18:46:44,654 - logging_config - DEBUG - Trace :g Shifted text  f
+2024-12-10 18:46:44,654 - logging_config - DEBUG - Trace :g Shifted text  ff
+2024-12-10 18:46:44,655 - logging_config - DEBUG - Trace : Shifted text result: ff
+2024-12-10 18:46:44,655 - logging_config - INFO - Decryption result: ff
+2024-12-10 18:46:55,220 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-10 18:47:00,279 - logging_config - INFO - Initialized CaesarCipher with key: 1
+2024-12-10 18:47:04,882 - logging_config - INFO - Encrypting with CaesarCipher: f@f
+2024-12-10 18:47:04,884 - logging_config - DEBUG - Trace :Shifting text: f@f with shift: 1
+2024-12-10 18:47:18,029 - logging_config - DEBUG - Trace :f Shifted text  g
+2024-12-10 18:47:29,269 - logging_config - DEBUG - Trace :f Shifted text  gg
+2024-12-10 18:49:08,417 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-10 18:49:13,442 - logging_config - INFO - Initialized CaesarCipher with key: 1
+2024-12-10 18:49:17,629 - logging_config - INFO - Encrypting with CaesarCipher: f@f
+2024-12-10 18:49:17,631 - logging_config - DEBUG - Trace :Shifting text: f@f with shift: 1
+2024-12-10 18:49:17,631 - logging_config - DEBUG - Trace :f Shifted text  g
+2024-12-10 18:49:17,632 - logging_config - DEBUG - Trace :f Shifted text  g@g
+2024-12-10 18:49:17,632 - logging_config - DEBUG - Trace : Shifted text result: g@g
+2024-12-10 18:49:17,632 - logging_config - INFO - Encryption result: g@g
+2024-12-10 18:49:23,566 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-10 18:49:26,250 - logging_config - INFO - Initialized CaesarCipher with key: 1
+2024-12-10 18:49:31,366 - logging_config - INFO - Decrypting with CaesarCipher: g@g
+2024-12-10 18:49:31,368 - logging_config - DEBUG - Trace :Shifting text: g@g with shift: -1
+2024-12-10 18:49:31,369 - logging_config - DEBUG - Trace :g Shifted text  f
+2024-12-10 18:49:31,369 - logging_config - DEBUG - Trace :g Shifted text  f@f
+2024-12-10 18:49:31,369 - logging_config - DEBUG - Trace : Shifted text result: f@f
+2024-12-10 18:49:31,369 - logging_config - INFO - Decryption result: f@f
+2024-12-10 18:50:57,326 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-10 18:51:00,898 - logging_config - INFO - Initialized CaesarCipher with key: 1
+2024-12-10 18:51:06,134 - logging_config - INFO - Encrypting with CaesarCipher: f@f
+2024-12-10 18:51:06,135 - logging_config - DEBUG - Trace :Shifting text: f@f with shift: 1
+2024-12-10 18:51:06,135 - logging_config - DEBUG - Trace :f Shifted text  g
+2024-12-10 18:51:06,135 - logging_config - DEBUG - Trace :f Shifted text  gg
+2024-12-10 18:51:06,135 - logging_config - DEBUG - Trace : Shifted text result: gg
+2024-12-10 18:51:06,135 - logging_config - INFO - Encryption result: gg
+2024-12-10 18:51:16,879 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-10 18:51:19,439 - logging_config - INFO - Initialized CaesarCipher with key: 1
+2024-12-10 18:51:23,062 - logging_config - INFO - Decrypting with CaesarCipher: gg
+2024-12-10 18:51:23,062 - logging_config - DEBUG - Trace :Shifting text: gg with shift: -1
+2024-12-10 18:51:23,062 - logging_config - DEBUG - Trace :g Shifted text  f
+2024-12-10 18:51:23,062 - logging_config - DEBUG - Trace :g Shifted text  ff
+2024-12-10 18:51:23,062 - logging_config - DEBUG - Trace : Shifted text result: ff
+2024-12-10 18:51:23,063 - logging_config - INFO - Decryption result: ff
+2024-12-10 18:51:33,981 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-10 18:51:37,542 - logging_config - INFO - Initialized CaesarCipher with key: 1
+2024-12-10 18:51:41,536 - logging_config - INFO - Encrypting with CaesarCipher: f@f
+2024-12-10 18:51:41,537 - logging_config - DEBUG - Trace :Shifting text: f@f with shift: 1
+2024-12-10 18:51:54,907 - logging_config - DEBUG - Trace :f Shifted text  g
+2024-12-10 18:52:10,063 - logging_config - DEBUG - Trace :f Shifted text  gg
+2024-12-10 18:54:41,435 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-10 18:54:44,677 - logging_config - INFO - Initialized CaesarCipher with key: 1
+2024-12-10 18:54:48,229 - logging_config - INFO - Encrypting with CaesarCipher: f@f
+2024-12-10 18:54:48,230 - logging_config - DEBUG - Trace :Shifting text: f@f with shift: 1
+2024-12-10 18:54:48,230 - logging_config - DEBUG - Trace :f Shifted text  g
+2024-12-10 18:54:48,231 - logging_config - DEBUG - Trace :f Shifted text  g@g
+2024-12-10 18:54:48,231 - logging_config - DEBUG - Trace : Shifted text result: g@g
+2024-12-10 18:54:48,231 - logging_config - INFO - Encryption result: g@g
+2024-12-10 18:54:59,103 - logging_config - INFO - Starting Classical Ciphers Program
+2024-12-10 18:55:01,739 - logging_config - INFO - Initialized CaesarCipher with key: 1
+2024-12-10 18:55:06,457 - logging_config - INFO - Decrypting with CaesarCipher: g@g
+2024-12-10 18:55:06,458 - logging_config - DEBUG - Trace :Shifting text: g@g with shift: -1
+2024-12-10 18:55:06,458 - logging_config - DEBUG - Trace :g Shifted text  f
+2024-12-10 18:55:06,458 - logging_config - DEBUG - Trace :g Shifted text  f@f
+2024-12-10 18:55:06,458 - logging_config - DEBUG - Trace : Shifted text result: f@f
+2024-12-10 18:55:06,458 - logging_config - INFO - Decryption result: f@f

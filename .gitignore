@@ -8,3 +8,5 @@ __pycache__/
 classical_ciphers.egg-info/
 dist/
 
+
+.codegpt

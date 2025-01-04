@@ -1,6 +1,6 @@
 # ciphers/vigenere.py
 
-from logging_config import logger
+from classical_ciphers.ciphers.tests.logging_config import logger
 
 
 class VigenereCipher:

@@ -1,7 +1,6 @@
 # ciphers/caesar.py
 
-
-from logging_config import logger
+from classical_ciphers.ciphers.tests.logging_config import logger
 
 
 class CaesarCipher:
@@ -21,18 +20,21 @@ class CaesarCipher:
         return self._shift_text(ciphertext, -self.key)
 
     def _shift_text(self, text, shift):
-        logger.debug("Trace :Shifting text: %s with shift: %d", text, shift)
+        logger.debug("Trace: Shifting text: %s with shift: %d", text, shift)
         result = ""
 
         for char in text:
             if char.isupper():
                 shifted = ((ord(char) - ord("A") + shift) % 26) + ord("A")
                 result += chr(shifted)
+                logger.debug("Trace: %s Shifted text %s", char, result)
             elif char.islower():
                 shifted = ((ord(char) - ord("a") + shift) % 26) + ord("a")
                 result += chr(shifted)
+                logger.debug("Trace: %s Shifted text %s", char, result)
             else:
+                # This function only handles alphabetic characters.
                 result += char
 
-        logger.debug("Trace : Shifted text result: %s", result)
+        logger.debug("Trace: Shifted text result: %s", result)
         return result
