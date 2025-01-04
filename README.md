@@ -145,13 +145,14 @@ We use `pytest` for unit testing to ensure the correctness of cipher implementat
 
 2. Run the test suite:
    ```bash
-   pytest
+   python3 -m unittest discover tests
    ```
 
 The test files are located in the `tests` directory, with individual test files for each cipher implementation.
 
----
 
+
+---
 ## How to Contribute
 
 We welcome contributions to improve this project! Here’s how you can help:
