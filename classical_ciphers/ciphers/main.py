@@ -1,7 +1,7 @@
 # main.py
 
 
-from logging_config import logger
+from classical_ciphers.ciphers.tests.logging_config import logger
 from caesar import CaesarCipher
 from vigenere import VigenereCipher
 from playfair import PlayfairCipher

@@ -3,6 +3,7 @@ name: CI
 on:
   push:        # triggers on any push to any branch
   pull_request: # triggers on pull requests
+  workflow_dispatch: # Allows manual trigger
 
 jobs:
   build_and_test:
