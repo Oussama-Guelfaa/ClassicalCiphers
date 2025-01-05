@@ -1,5 +1,8 @@
 name: Release
 
+permissions:
+  contents: write  # Allows the workflow to create releases and upload assets
+
 on:
   push:
     tags:
