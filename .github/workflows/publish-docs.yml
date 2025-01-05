@@ -39,4 +39,4 @@ jobs:
         with:
           personal_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           publish_dir: ./docs/build/html
-          publish_branch: gh-pages
+          publish_branch: master
