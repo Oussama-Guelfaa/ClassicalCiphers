@@ -1,0 +1,42 @@
+name: Publish Documentation
+
+on:
+  push:
+    branches:
+      - master  # Only run on push to master
+
+jobs:
+  build-and-deploy-docs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'  # or whichever version you prefer
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          # If Sphinx:
+          pip install sphinx
+          # If you have a requirements.txt for docs:
+          # pip install -r docs/requirements.txt
+
+      - name: Build documentation
+        run: |
+          cd docs
+          make html
+          # If MkDocs:
+          # mkdocs build
+          # If you have a different command, run that instead
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs/build/html
+          publish_branch: gh-pages
