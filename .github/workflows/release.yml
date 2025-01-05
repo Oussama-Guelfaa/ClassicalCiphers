@@ -1,12 +1,12 @@
 name: Release
 
 permissions:
-  contents: write  # Allows the workflow to create releases and upload assets
+  contents: write
 
 on:
   push:
     tags:
-      - 'v*'     # Trigger on any tag that starts with 'v'
+      - 'v*'
 
 jobs:
   build_test_and_release:
@@ -49,22 +49,8 @@ jobs:
           echo "Changelog generated:"
           cat CHANGELOG.md
 
-          # Set as an output so the release step can use it
           echo "::set-output name=log::$(cat CHANGELOG.md | sed 's/%/%25/g; s/\n/%0A/g; s/\r/%0D/g')"
 
-      - name: Build distribution
-        run: |
-          rm -rf dist
-          python setup.py sdist bdist_wheel
-          echo "dist folder contents:"
-          ls -al dist
-
-      # Optional: upload the dist/ artifacts so you can inspect them if something fails
-      - name: Upload artifacts (optional)
-        uses: actions/upload-artifact@v3
-        with:
-          name: build_artifacts
-          path: /dist
 
       - name: Create GitHub Release
         uses: actions/create-release@v1
@@ -76,12 +62,3 @@ jobs:
           prerelease: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Upload Release Assets
-        uses: svenstaro/upload-release-action@v2
-        with:
-          repo_token: ${{ secrets.GITHUB_TOKEN }}
-          # Use a glob pattern to match all built artifacts
-          file: dist/*
-          # You can omit asset_name if you want each file to keep its own name
-          tag: ${{ github.ref_name }}
