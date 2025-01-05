@@ -1,0 +1,58 @@
+name: CI
+
+on:
+  push:        # triggers on any push to any branch
+  pull_request: # triggers on pull requests
+
+jobs:
+  build_and_test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8, 3.9, 3.10]  # Add or remove versions as needed
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run tests
+        env:
+          PYTHONPATH: ${{ github.workspace }}  # Set PYTHONPATH to the project root
+        run: pytest
+  code_analysis:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install linters
+        run: |
+          pip install --upgrade pip
+          pip install flake8 bandit detect-secrets
+
+      - name: Run flake8
+        run: |
+          flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+          flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+
+      - name: Run Bandit (security analysis)
+        run: |
+          bandit -r .
+
+      - name: Detect secrets
+        run: |
+          detect-secrets scan
