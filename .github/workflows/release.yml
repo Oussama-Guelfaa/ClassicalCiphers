@@ -63,8 +63,17 @@ jobs:
           rm -rf dist  # Clean up dist folder before build
           python3 setup.py sdist bdist_wheel
           ls dist  # List the contents of the dist folder for debugging
-
-      # Step 7: Upload build artifacts to release
+    # Step 7: Debug if dist exists
+      - name: Verify dist folder
+        run: |
+            if [ -d "dist" ]; then
+                echo "dist folder exists:"
+                ls -al dist
+            else
+                echo "ERROR: dist folder does not exist!"
+                exit 1
+            fi        
+      # Step 8: Upload build artifacts to release
       - name: Create GitHub Release
         uses: actions/create-release@v1
         with:
@@ -76,10 +85,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # Step 8: Upload release assets
+      # Step 9: Upload release assets
       - name: Upload Release Assets
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: "dist/*"  # Match all files in the dist folder
+          file: "dist/"  # Match all files in the dist folder
           tag: ${{ github.ref_name }}
