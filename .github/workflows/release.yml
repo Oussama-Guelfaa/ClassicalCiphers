@@ -64,7 +64,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: build_artifacts
-          path: dist
+          path: /dist
 
       - name: Create GitHub Release
         uses: actions/create-release@v1
@@ -85,4 +85,3 @@ jobs:
           file: dist/*
           # You can omit asset_name if you want each file to keep its own name
           tag: ${{ github.ref_name }}
-          
