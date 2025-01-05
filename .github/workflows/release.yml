@@ -61,7 +61,7 @@ jobs:
       - name: Build distribution
         run: |
           rm -rf dist  # Clean up dist folder before build
-          python setup.py sdist bdist_wheel
+          python3 setup.py sdist bdist_wheel
           ls dist  # List the contents of the dist folder for debugging
 
       # Step 7: Upload build artifacts to release
@@ -81,5 +81,5 @@ jobs:
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: dist/*  # Match all files in the dist folder
+          file: "dist/*"  # Match all files in the dist folder
           tag: ${{ github.ref_name }}
