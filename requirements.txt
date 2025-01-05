@@ -3,3 +3,5 @@ flake8
 bandit
 detect-secrets
 numpy
+sphinx
+sphinx-rtd-theme
