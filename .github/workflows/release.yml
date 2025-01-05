@@ -56,7 +56,7 @@ jobs:
           # Make this available to the next step
           echo "::set-output name=log::$(cat CHANGELOG.md | sed 's/%/%25/g; s/\n/%0A/g; s/\r/%0D/g')"
 
-      - name: Build distribution #(example: if you package with setuptools)
+      - name: Build distribution 
         run: |
           python setup.py sdist bdist_wheel
           ls dist
