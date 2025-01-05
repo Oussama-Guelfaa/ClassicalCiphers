@@ -6,17 +6,16 @@ permissions:
 on:
   push:
     tags:
-      - 'v*'     # will trigger on any tag that starts with 'v'
+      - 'v*'     # Trigger on any tag that starts with 'v'
 
 jobs:
   build_test_and_release:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Check out repository
         uses: actions/checkout@v3
         with:
-          # This ensures we have the full commit history needed to generate changelogs
           fetch-depth: 0
 
       - name: Set up Python 3.10
@@ -31,15 +30,12 @@ jobs:
 
       - name: Run tests
         env:
-          PYTHONPATH: ${{ github.workspace }}  # Set PYTHONPATH to the project root
+          PYTHONPATH: ${{ github.workspace }}
         run: pytest
 
       - name: Generate changelog
         id: changelog
         run: |
-          # Find the previous tag (if any). If none, only use the first commit.
-          # This uses a trick: git describe returns the *closest* tag
-          # (you can fine-tune as needed).
           PREV_TAG=$(git describe --tags --abbrev=0 HEAD^ 2>/dev/null || echo "")
           
           if [ -z "$PREV_TAG" ]; then
@@ -49,19 +45,22 @@ jobs:
             echo "Generating changelog from $PREV_TAG to HEAD"
             git log "${PREV_TAG}"..HEAD --pretty=format:"* %s (%h)" > CHANGELOG.md
           fi
-          
+
           echo "Changelog generated:"
           cat CHANGELOG.md
-          
-          # Make this available to the next step
+
+          # Set as an output so the release step can use it
           echo "::set-output name=log::$(cat CHANGELOG.md | sed 's/%/%25/g; s/\n/%0A/g; s/\r/%0D/g')"
 
-      - name: Build distribution 
+      - name: Build distribution
         run: |
+          rm -rf dist
           python setup.py sdist bdist_wheel
-          ls dist
+          echo "dist folder contents:"
+          ls -al dist
 
-      - name: Upload artifacts (optional step to store them for the workflow)
+      # Optional: upload the dist/ artifacts so you can inspect them if something fails
+      - name: Upload artifacts (optional)
         uses: actions/upload-artifact@v3
         with:
           name: build_artifacts
@@ -82,6 +81,8 @@ jobs:
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: "dist/*"
-          asset_name: "classical_ciphers_artifacts"
+          # Use a glob pattern to match all built artifacts
+          file: dist/*
+          # You can omit asset_name if you want each file to keep its own name
           tag: ${{ github.ref_name }}
+          
